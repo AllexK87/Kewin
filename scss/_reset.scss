@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+// Links
+a,
+a:visited {
+    text-decoration: none;
+}
+
+// Text
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+// List
+ul li {
+    list-style: none;
+}
+
+// Form
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+// Common
+aside, nav, footer, header, section, main {
+    display: block;
+}

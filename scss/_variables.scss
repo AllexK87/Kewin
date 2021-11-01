@@ -1,0 +1,28 @@
+// Размеры
+$maxW:1440;                // *Для миксинов
+$maxWidth: $maxW + px;
+$minWidtch: 320px;
+
+// Font-style
+$font-main: 'Pangram', sans-serif;
+$font_roboto: 'Roboto', sans-serif;
+
+// Font-sizes
+
+
+// Font-weight
+$font-weight: (
+    "light": 300,
+    "regular": 400,
+    "medium":500,
+    "semi-bold": 600,
+    "bold": 700,
+    "extra-bold": 800,
+    "black": 900
+);
+
+// Color
+$color_black: #000;
+$color_wheit: #fff;
+$color_grey: #e8e8e2;
+$color_bg: #e8e8e2;
