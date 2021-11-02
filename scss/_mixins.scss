@@ -5,6 +5,13 @@
     font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxW}));
 }
 
+//
+@mixin sizeWindow($size) {
+    @media (max-width: $size) {
+        @content;
+    }
+}
+
 // Grid
 @mixin grid($val) {
     display: grid;

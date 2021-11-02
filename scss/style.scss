@@ -186,3 +186,84 @@ body {
     }
 }
 /* HEADER END*/
+
+
+.main {
+    margin: 15rem 0 0 0;
+    padding: 0 3rem;
+}
+
+
+/* HRO START*/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    @include sizeWindow(1025px){
+        flex-direction: column;
+    }
+
+    .hero__box {
+        flex: 0 1 48%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @include sizeWindow(1025px){
+            order: 2;
+        }
+
+        .hero__box__txt {
+            @include sizeWindow(1025px){
+                margin: 3rem 0 0 0;
+            }
+
+            h1 {
+                font-size: 5rem;
+                font-weight: 700;
+                margin: 0 0 3rem 0;
+                @include sizeWindow(1025px){
+                    text-align: center;
+                }
+            }
+    
+            p {
+                font-size: 3rem;
+            }
+        }
+        
+        span {
+            font-size: 8rem;
+            cursor: pointer;  
+            width: fit-content;     
+            @include sizeWindow(1025px){
+                text-align: center;
+                width: 100%;    
+                margin: 3rem 0 0 0;
+            } 
+            @include sizeWindow(770px){
+                display: none;
+            } 
+        }
+    }
+
+    .hero__box-img {
+        flex: 0 1 48%;
+        min-height: 68rem;
+        position: relative;
+        @include sizeWindow(1025px){
+            order: 1;
+        }
+        @include sizeWindow(770px){
+            min-height: 34rem;
+        } 
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+/* HRO END*/

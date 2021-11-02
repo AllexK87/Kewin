@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icofont';
-  src:  url('../fonts/icofont.eot?zfnp9f');
-  src:  url('../fonts/icofont.eot?zfnp9f#iefix') format('embedded-opentype'),
-    url('../fonts/icofont.ttf?zfnp9f') format('truetype'),
-    url('../fonts/icofont.woff?zfnp9f') format('woff'),
-    url('../fonts/icofont.svg?zfnp9f#icofont') format('svg');
+  src:  url('../fonts/icofont.eot?nqw0wn');
+  src:  url('../fonts/icofont.eot?nqw0wn#iefix') format('embedded-opentype'),
+    url('../fonts/icofont.ttf?nqw0wn') format('truetype'),
+    url('../fonts/icofont.woff?nqw0wn') format('woff'),
+    url('../fonts/icofont.svg?nqw0wn#icofont') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -31,9 +31,6 @@
 .ic-plus:before {
   content: "\e901";
 }
-.ic-arrow:before {
-  content: "\e900";
-}
 .ic-search:before {
   content: "\e905";
 }
@@ -51,4 +48,10 @@
 }
 .ic-twitter:before {
   content: "\e907";
+}
+.ic-arrow:before {
+  content: "\e900";
+}
+.ic-arrow-down-long:before {
+  content: "\e908";
 }
