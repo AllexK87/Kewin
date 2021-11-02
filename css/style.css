@@ -65,7 +65,7 @@ aside, nav, footer, header, section, main {
   display: block;
 }
 
-/* GENERAL */
+/* GENERAL START*/
 html,
 body {
   font-family: "Pangram", sans-serif;
@@ -73,6 +73,7 @@ body {
   font-size: 62.5%;
   color: #000;
   background-color: #e8e8e2;
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 991px) {
@@ -99,6 +100,42 @@ body {
   margin: 0 auto;
 }
 
+section {
+  padding: 12rem 0 0 0;
+}
+
+.title2 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.title3 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.title4 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #000;
+}
+
+p {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #000;
+}
+
+a {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #000;
+  text-decoration: underline;
+}
+
+/* GENERAL END*/
 /* HEADER START*/
 .header {
   position: fixed;
@@ -212,6 +249,7 @@ body {
   display: inline-block;
   font-size: 2.2rem;
   color: #000;
+  text-decoration: none;
   margin: 0 7.5rem;
   position: relative;
 }
@@ -263,11 +301,10 @@ body {
 
 /* HEADER END*/
 .main {
-  margin: 15rem 0 0 0;
   padding: 0 3rem;
 }
 
-/* HRO START*/
+/* HERO START*/
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -387,3 +424,29 @@ body {
 }
 
 /* HRO END*/
+/* WORKS START */
+.works {
+  margin: 0rem 0 0rem 0;
+}
+
+.works .title2 {
+  margin: 0 0 3rem 0;
+}
+
+.works .works__slieder .works__slieder__wrapper .works__slied {
+  margin: 0 3rem 0 0;
+}
+
+.works .works__slieder .works__slieder__wrapper .works__slied .slider__slied__img img {
+  width: 100%;
+}
+
+.works .works__slieder .works__slieder__wrapper .works__slied .works__slied__content .title3 {
+  margin: 2.8rem 0 0.8rem 0;
+}
+
+.works .works__slieder .works__slieder__wrapper .works__slied .works__slied__content p {
+  margin: 1.8rem 0 2.3rem 0;
+}
+
+/* WORKS END */

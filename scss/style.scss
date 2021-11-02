@@ -13,7 +13,7 @@
 // FUNCTION
 @import 'function';
 
-/* GENERAL */
+/* GENERAL START*/
 html,
 body {
     font-family: $font-main;
@@ -21,6 +21,8 @@ body {
     font-size: 62.5%;
     color: $color_black;
     background-color: $color_bg;
+    scroll-behavior: smooth;
+    // overflow-x: hidden;
 
     @media (max-width: 991px) 
     {
@@ -47,6 +49,42 @@ body {
     max-width: $maxWidth;
     margin: 0 auto;
 }
+
+section {
+    padding: 12rem 0 0 0;
+}
+
+.title2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: $color_black;
+}
+
+.title3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $color_black;
+}
+
+.title4 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: $color_black;
+}
+
+p {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: $color_black;
+}
+
+a {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: $color_black;
+    text-decoration: underline;
+}
+/* GENERAL END*/
 
 
 /* HEADER START*/
@@ -138,6 +176,7 @@ body {
                 display: inline-block;
                 font-size: 2.2rem;
                 color: $color_black;
+                text-decoration: none;
                 margin: 0 7.5rem;
                 position: relative;
 
@@ -189,12 +228,12 @@ body {
 
 
 .main {
-    margin: 15rem 0 0 0;
+    // margin: 15rem 0 0 0;
     padding: 0 3rem;
 }
 
 
-/* HRO START*/
+/* HERO START*/
 .hero {
     display: flex;
     justify-content: space-between;
@@ -267,3 +306,50 @@ body {
     }
 }
 /* HRO END*/
+
+
+/* WORKS START */
+.works {
+    margin: 0rem 0 0rem 0;
+    
+    .title2 {
+    margin: 0 0 3rem 0;
+    }
+
+    .works__slieder {
+
+        .works__slieder__wrapper {
+
+            .works__slied {
+                margin: 0 3rem 0 0;
+
+                .slider__slied__img {
+                    
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .works__slied__content {
+
+                    .title3 {
+                        margin: 2.8rem 0 0.8rem 0;
+                    }
+
+                    .title4 {
+
+                    }
+
+                    p {
+                        margin: 1.8rem 0 2.3rem 0;
+                    }
+
+                    a {
+
+                    }
+                }
+            }
+        }
+    }
+}
+/* WORKS END */
