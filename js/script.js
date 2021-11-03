@@ -10,10 +10,11 @@ burger.addEventListener('click', function () {
 })
 
 // Slaider works
-const swiper = new Swiper('.works__slieder', {
+const worksSlieder = new Swiper('.works__slieder', {
     autoplay: {
         delay: 5000,
       },
+      spaceBetween: 30,
       breakpoints: {
         0: {
             slidesPerView: 1,
@@ -28,4 +29,48 @@ const swiper = new Swiper('.works__slieder', {
           slidesPerView: 2.5,
         },
       },
+})
+
+// Slaider education
+const educationSlieder = new Swiper('.education__slieder', {
+  autoplay: {
+      delay: 5000,
+    },
+    spaceBetween: 30,
+    breakpoints: {
+      0: {
+          slidesPerView: 1,
+      },
+      640: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 2.5,
+      },
+      1024: {
+        slidesPerView: 2.5,
+      },
+    },
+})
+
+// Slaider reviews
+const reviewsSlieder = new Swiper('.reviews__slieder', {
+  autoplay: {
+      delay: 5000,
+    },
+    spaceBetween: 30,
+    breakpoints: {
+      0: {
+          slidesPerView: 1,
+      },
+      640: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 2.5,
+      },
+      1024: {
+        slidesPerView: 2.5,
+      },
+    },
 })
