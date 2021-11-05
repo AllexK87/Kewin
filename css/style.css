@@ -673,3 +673,61 @@ a {
 }
 
 /* TECHNOLOGIES END */
+/* CONTACTS START */
+.contacts {
+  background-color: #000;
+  padding: 10rem 3rem 10rem 3rem;
+}
+
+@media (max-width: 770px) {
+  .contacts {
+    margin-top: 3rem;
+  }
+}
+
+.contacts .title2 {
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.contacts .contacts__content {
+  color: #fff;
+  margin-bottom: 2.5rem;
+  max-width: 52.8rem;
+}
+
+.contacts .contacts__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contacts .contacts__box .contacts__links a {
+  color: #fff;
+  display: inline-block;
+  margin: 0 8.2rem 0 0;
+  font-size: 3rem;
+}
+
+.contacts .contacts__box .contacts__slogan {
+  color: #fff;
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+@media (max-width: 770px) {
+  .contacts .contacts__box .contacts__slogan {
+    margin-top: 3rem;
+    font-size: 4rem;
+  }
+}
+
+/* CONTACTS END */

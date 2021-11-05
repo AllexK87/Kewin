@@ -528,3 +528,50 @@ a {
     }
 }
 /* TECHNOLOGIES END */
+
+
+/* CONTACTS START */
+.contacts {
+    background-color: $color_black;
+    padding: 10rem 3rem 10rem 3rem;
+    @include sizeWindow(770px) {
+        margin-top: 3rem;
+    }
+
+    .title2 {
+        color: $color_wheit;
+        margin-bottom: 3rem;
+    }
+    .contacts__content {
+        color: $color_wheit;
+        margin-bottom: 2.5rem;
+        max-width: 52.8rem;
+    }
+    .contacts__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-wrap: wrap;
+
+        .contacts__links {
+            a {
+                color: $color_wheit;
+                display: inline-block;
+                margin: 0 8.2rem 0 0;
+                font-size: 3rem;
+            }
+        }
+
+        .contacts__slogan {
+            color: $color_wheit;
+            font-size: 8rem;
+            font-weight: 700;
+            @include sizeWindow(770px) {
+                margin-top: 3rem;
+                font-size: 4rem;
+            }
+        }
+    }
+    
+}
+/* CONTACTS END */
